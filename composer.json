@@ -1,0 +1,26 @@
+{
+    "name": "wilsonglasser/composer-test",
+    "description": "Biblioteca com boletos para o php",
+    "keywords": [
+        "wilsonglasser",
+        "php-boleto"
+    ],
+    "homepage": "https://github.com/wilsonglasser/composer-test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wilson Glasser",
+            "email": "wilsonglasser@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WilsonGlasser\\PhpBoleto\\": "src",
+            "WilsonGlasser\\PhpBoleto\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+    }
+}
